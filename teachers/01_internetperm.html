@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Page Title Goes Here</title>
+<!-- required scripts -->
+  ~[wc:commonscripts] 
+<!-- Required style sheets: screen.css, and print.css -->
+  <link href="/images/css/screen.css" rel="stylesheet" media="screen">
+  <link href="/images/css/print.css" rel="stylesheet" media="print">
+<script type="text/javascript">
+  <!-- Begin
+  function formHandler(form){
+  var URL = document.navigation.page.options[document.navigation.page.selectedIndex].value;
+  window.location.href = URL;
+  }
+  // End -->
+</script>
+</head>
+<body>
+
+~[wc:teachers_header_fr_css]
+
+ <form name="navigation"><span class="account-photo">~[studenttitlephoto]</span>
+ <h1>Your Page Title Goes Here<span class="nav-teacher"><select name="page" size=1 onChange="javascript:formHandler()"><option value="">Select Screens</option><option value="">--------------------</option>~[x:teacherpages]</select></span>~[studentalert]</h1>
+<p>~(studentname) &nbsp; ~(grade_level) &nbsp; ~(student_number) &nbsp; &nbsp; ~(track) &nbsp; &nbsp; ~(studschoolabbr) &nbsp; &nbsp; ~[enrollmentstatus]</p></form>
+
+  <div class="box-round">
+     <p>
+      Your paragraph text goes here.
+     </p>
+  </div>
+<!-- end of content area -->
+~[wc:teachers_footer_fr_css]
+</body>
+</html>
