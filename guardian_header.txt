@@ -88,6 +88,12 @@
       ~[pluginnavlinks:student.left_nav]
     [/if]
     
+    <li id="btn-internetPerm"><a href="/guardian/01_internetperm.html">Internet Permission</a></li>
+    <style type="text/css">
+      #btn-internetPerm {
+        background-image: url(/images/img/iconInternetPerm.svg);
+      }
+    </style>
   </ul>
   <div id="cust-leftnav-footer">~[cust.insertion_point:leftnav.footer]</div>
   
