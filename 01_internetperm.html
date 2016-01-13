@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>01 Internet Permissions</title>
+  <!-- start of page body -->
+  ~[wc:guardian_header]
+  <h1>01 Internet Permissions</h1>
+  <!-- start student content -->
+  <div class="box-round">
+    <h2 id="toc_0">Digital Citizenship Middle School Agreement</h2>
+    <h4 id="toc_1">Looking After Yourself</h4>
+    <ul>
+      <li>Choosing online names that are suitable and respectful. Only inviting people you actually know in the real world to be your friends in the online world.</li>
+      <li>Only visiting sites that are appropriate and respecting the rules that web sites have about age. Some sites are only for adults. If you wouldn’t feel comfortable showing the web site to you parents or grandparents then it’s inappropriate.</li>
+      <li>Setting your privacy settings so only the people you know can see you and your personal information.</li>
+      <li>Only putting information online that is appropriate and posting pictures that are suitable. Not everyone seeing your profile or pictures will be friendly.</li>
+      <li>Always reporting anything that happens online which makes you feel uncomfortable or unhappy. Talking to trusted adults, like your parents and teachers, about your online experiences. This includes both the good and the bad experiences. </li>
+    </ul>
+    <h4 id="toc_2">Looking After Others</h4>
+    <ul>
+      <li>Show you care by not flaming (sending hurtful or inflammatory messages) other people, or forwarding messages that are unkind or inappropriate. By not getting involved in conversations that are unkind, mean or bullying.</li>
+      <li>By reporting any conversations you see that are unkind, mean or bullying. Imagine if the things being written were about you. If you would find them offensive then they are inappropriate. </li>
+      <li>Some web sites are disrespectful because they show people behaving inappropriately or illegally—or are racist, bigoted or unkind. Show your respect for others by avoiding these sites. If you visit one by accident, close it and tell your teacher or an adult. </li>
+      <li>Show respect for other’s privacy by not trying to get into their online spaces without invitation, by not stalking them or copying their pictures. </li>
+    </ul>
+    <h4 id="toc_3">Looking After Property</h4>
+    <ul>
+      <li>By not stealing other people’s property. It’s easy to download music, games and movies, but piracy (downloading media that you have not bought) is just the name given to stealing online. By not sharing the music, movies, games and other software that you own with other people. By checking that the information you are using is correct. Anyone can say anything on the web, so you need to check that the research is correct by using reliable sites. When in doubt ask your teacher or your parents. </li>
+      <li>By looking after other people’s web sites, acting appropriately when visiting them, not making changes or vandalizing them, and reporting any damage that you finds. </li>
+      <li>By never leaving your laptop unattended. It needs to be with you, in a classroom, or locked up at all times.</li>
+      <li>By not using the laptop for leisurely purposes during lunch and recess times.</li>
+      <li>By making sure my case and charger are with your computer at all times.</li>
+    </ul>
+    <p>Email and any other use of the electronic communication systems by students are not confidential and may be monitored at any time by designated staff. </p>
+    <p>By signing this agreement, I undertake to always act in a manner that is respectful to myself and others, and to act appropriately, and in a moral and ethical manner. </p>
+    <h2 id="toc_4">Middle School Responsible Use Policy</h2>
+    <h4 id="toc_5">While using school owned digital tools and the WBAIS network, students will follow these guidelines:</h4>
+    <ul>
+      <li>Use the WBAIS school network and technology responsibly for school work.</li>
+      <li>Cite your resources and give attributions to photos that you use.</li>
+      <li>Organize and upload files to Google Drive.</li>
+      <li>Report problems with equipment to the technology office.</li>
+      <li>Use only your account. Do not use, change or try to access other people’s accounts or data.</li>
+      <li>During class time use the computer for school work.</li>
+      <li>Installing software or changing configurations are forbidden.</li>
+      <li>Check email and Moodle daily.</li>
+      <li>Laptops should never be unattended and need to be with you, in a classroom, or locked up at all times.</li>
+      <li>Do not use the laptop for leisurely purposes during lunch and recess times.</li>
+      <li>Your laptop charger should with your computer at all times.</li>
+    </ul>
+    <h4 id="toc_6">Internet Use</h4>
+    <p>Technology users strive to be good digital citizens. Please avoid using sites that waste your time, sites that use a great deal of bandwidth, or sites that contain inappropriate content.</p>
+    <h4 id="toc_7">Monitored Use</h4>
+    <p>Email and any other use of the electronic communication systems by students are not confidential and may be monitored at any time by designated staff. </p>
+    <h4 id="toc_8">Consequences</h4>
+    <p>Deliberate attempts to violate these responsible use guidelines, or compromise, degrade, or disrupt system performance may result in restricted use of digital devices at school or other appropriate consequences. Consequences may include but are not limited to: referrals to the administration, the loss of computer and account privileges, parental contact, proper authorities contact, and suspension from school.</p>
+    <p>These guidelines extend to the use of any personal computing, communication or other digital devices on the WBAIS campus (laptops, handhelds, cell phones, iPods, MP3 players and other emerging technologies). This may also apply to off campus use that results in a disruption to the school’s learning environment.</p>
+    <span style="text-decoration: underline">~(first_name) ~(last_name)</span>
+  </div>
+  <form action="changesrecorded.html" method="POST" id="internetPerm">
+
+    <!-- This is a standards driven table. there are no styles, borders, widths and there is a header row--> 
+    <table border="0" cellpadding="0" cellspacing="0" class="linkDescList" id="DataTable"> 
+      <tbody> 
+       <tr> 
+         <td>
+           <input type="radio" name="[Students.U_01_InternetPermission]Agree" value="1">Yes</input>&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="radio" name="[Students.U_01_InternetPermission]Agree" value="0">No
+         </td> 
+         <td>
+           Guardian Name <input type="text" name="[Students.U_01_InternetPermission]Guardian" value="" size="35" />
+         </td> 
+       </tr> 
+       <tr> 
+         <td class="bold">Internet Access Level</td>
+         <td>~([Students.U_01_InternetPermission]AccessLevel)</td>
+       </tr> 
+      </tbody> 
+    </table> 
+
+    <div class="button-row">
+      <input type="hidden" name="ac" value="autosendupdate">
+      ~[submitbutton]
+    </div>
+
+  </form>
+  <!-- end student content -->
+  <!-- Sets the navigation highlighting: the value is the ID value of the navigation element you want to highlight-->
+  <input id="activeNav" type="hidden" value="#btn-gradesAttendance" />
+  <!-- end of page body -->
+  ~[wc:guardian_footer]
+  </body>
+
+</html>
