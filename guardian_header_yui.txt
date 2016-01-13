@@ -103,7 +103,7 @@
       ~[pluginnavlinks:student.left_nav]
     [/if]
 
-    <li id="btn-internetPerm"><a href="/gaurdian/01_internetperm.html">Internet Permission</a></li>
+    <li id="btn-internetPerm"><a href="/guardian/test/01_internetperm.html">Internet Permission</a></li>
     <style type="text/css">
       #btn-internetPerm {
         background-image: url(/images/img/iconInternetPerm.svg);
